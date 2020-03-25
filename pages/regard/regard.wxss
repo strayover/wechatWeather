@@ -1,0 +1,41 @@
+/* pages/regard/regard.wxss */
+.box{
+  padding:20rpx;
+}
+.city{
+    margin-top:20rpx;
+    margin-left:40rpx;
+    color:#fff;
+    font-size:32rpx;
+    text-align:left;
+}
+.life-item{
+    color:#fff;
+    height:185rpx;
+    vertical-align: middle;
+    margin-top:40rpx;
+    border-bottom: 1px solid #fff;
+}
+.life-item image{
+    height:100rpx;
+    width: 100rpx;
+    display:inline-block;
+    margin-right:30rpx;
+}
+.life-title{
+    font-size:32rpx;
+    padding-bottom:15rpx;
+}
+.life-des-container{
+    width:580rpx;
+    display:inline-block;
+}
+.life-des{
+    font-size:26rpx;
+}
+.life-container{
+  margin-top:60rpx;
+}
+.life-container .life-item:last-child{
+  border-bottom: none;
+}

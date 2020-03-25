@@ -1,0 +1,11 @@
+/**app.wxss**/
+.container {
+  margin: 0;
+  padding: 0;
+  font-family: PingFangSC-Regular, sans-serif;
+  list-style: none;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 100vh;
+  background-color: #3c9ae2;
+} 

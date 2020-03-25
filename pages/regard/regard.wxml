@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="box">
+    <view class="city">{{city}} {{nowTemp}}</view>
+    <view class="life-container">
+      <view class="life-item" wx:for="{{life}}"  wx:key="{{index}}">
+              <image src="{{item.img}}"></image>
+              <view class="life-des-container">
+                  <view class="life-title">{{item.tipt}} {{item.zs}}</view>
+                  <view class="life-des">{{item.des}}</view>
+              </view>
+      </view>      
+    </view>
+  </view>
+</view>

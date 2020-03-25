@@ -1,0 +1,64 @@
+/**index.wxss**/
+.box{
+  padding:0;
+  margin:0;
+  overflow: hidden;
+}
+.city{
+    margin-top:40rpx;
+    margin-left:60rpx;
+    color:#fff;
+    font-size:32rpx;
+    text-align:left;
+}
+.temp{
+    margin-top:60rpx;
+    font-size:100rpx;
+    text-align:center;  
+    color:#fff;
+}
+.weather{
+    margin-top:30rpx;
+    font-size:35rpx;
+    text-align:center;  
+    color:#fff;  
+}
+.weather image{
+  width:35px;
+  height:35px;
+  margin-right:30rpx;
+  vertical-align:middle;
+}
+.des{
+    padding:20rpx 100rpx;
+    margin-top:40rpx;
+    font-size:28rpx;
+    color:#fff;
+}
+.weatherDayBox{
+  padding-bottom:40rpx;
+  width:100%;
+  display: -webkit-flex;
+  display: flex;
+  position: absolute;
+  bottom:70rpx;
+  justify-content:center;
+	background:hsla(0,0%,0%,.10) border-box;
+	text-shadow:0 1px 1px hsla(0,0%,100%,.3);
+}
+.weatherDay{
+  width:30%;
+  color:#fff;
+  font-size:32rpx;
+  overflow:hidden;
+  margin-top:40rpx;
+  text-align: center;
+}
+.weatherDay view{
+  margin-top:10rpx;
+}
+.weatherDay image{
+  width:35px;
+  height:35px;
+  margin-top:25rpx; 
+}

@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="box">
+    <view class = "city" bindtap="changeMap">{{city}} {{nowTemp}}</view>
+    <view class="temp">{{temp}}</view>
+    <view class="weather"><image src="{{todayDayImg}}" class="future-img"></image>{{weather}}</view>
+    <view class="des">友情提示：{{des}}</view>
+    <view class="weatherDayBox">
+      <view class="weatherDay" wx:for="{{future}}" wx:key="{{index}}">
+        <view class="weatherDayTime">{{item.date}}</view>
+        <image src="{{item.futureTypeIcon}}" class="future-img"></image>
+        <view class="weatherDayWeather">{{item.weather}}</view>
+        <view class="weatherDayTemp">{{item.temperature}}</view>
+      </view>
+    </view>
+  </view>
+</view>
